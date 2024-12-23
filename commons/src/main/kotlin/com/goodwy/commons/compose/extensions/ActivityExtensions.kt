@@ -2,11 +2,9 @@ package com.goodwy.commons.compose.extensions
 
 import android.app.Activity
 import android.content.ComponentName
-import android.content.Context
 import android.content.pm.PackageManager
 import android.view.WindowManager
 import androidx.activity.ComponentActivity
-import androidx.core.content.ContextCompat
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import com.goodwy.commons.R
@@ -85,23 +83,6 @@ fun ComponentActivity.checkWhatsNewCompose(releases: List<Release>, currVersion:
     baseConfig.lastVersion = currVersion
 }
 
-fun ComponentActivity.upgradeToPro() {
-    launchViewIntent("https://play.google.com/store/apps/dev?id=8268163890866913014")
-}
-
-const val DEVELOPER_PLAY_STORE_URL = "https://play.google.com/store/apps/dev?id=8268163890866913014"
-const val FAKE_VERSION_APP_LABEL =
-    "You are using a fake version of the app. For your own safety download the original one from play.google.com. Thanks"
-
-fun Context.fakeVersionCheck(
-    showConfirmationDialog: () -> Unit
-) {
-    if (!packageName.startsWith("com.goodwy.", true)) {
-        if ((0..50).random() == 10 || baseConfig.appRunCount % 100 == 0) {
-            showConfirmationDialog()
-        }
-    }
-}
 
 fun ComponentActivity.appOnSdCardCheckCompose(
     showConfirmationDialog: () -> Unit

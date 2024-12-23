@@ -42,7 +42,6 @@ class TestDialogActivity : ComponentActivity() {
                     verticalArrangement = Arrangement.spacedBy(16.dp)
                 ) {
                     Spacer(modifier = Modifier.padding(top = 16.dp))
-                    ShowButton(getAppSideLoadedDialogState(), text = "App side loaded")
                     ShowButton(getAddBlockedNumberDialogState(), text = "Add blocked number")
                     ShowButton(getConfirmationAlertDialogState(), text = "Confirmation normal")
                     ShowButton(getConfirmationAdvancedAlertDialogState(), text = "Confirmation advanced")
@@ -276,13 +275,6 @@ class TestDialogActivity : ComponentActivity() {
         }
     }
 
-    @Composable
-    private fun getAppSideLoadedDialogState() =
-        rememberAlertDialogState().apply {
-            DialogMember {
-                AppSideLoadedAlertDialog(alertDialogState = this, onDownloadClick = {}) {}
-            }
-        }
 
     @Composable
     private fun getAddBlockedNumberDialogState() =
