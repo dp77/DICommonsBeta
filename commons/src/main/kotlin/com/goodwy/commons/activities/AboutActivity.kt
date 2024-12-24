@@ -135,38 +135,15 @@ class AboutActivity : BaseComposeActivity() {
     }
 
     private fun onPrivacyPolicyClick() {
-        val appId = baseConfig.appId.removeSuffix(".debug")
-        val url = when (appId) {
-            "com.goodwy.smsmessenger" -> "https://sites.google.com/view/goodwy/about/privacy-policy-right-messages"
-            "com.goodwy.contacts" -> "https://sites.google.com/view/goodwy/about/privacy-policy-right-contacts"
-            else -> "https://sites.google.com/view/goodwy/about/privacy-policy"
-        }
-        launchViewIntent(url)
+
     }
 
     private fun onTipJarClick() {
-        Intent(applicationContext, PurchaseActivity::class.java).apply {
-            putExtra(APP_ICON_IDS, intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList<String>())
-            putExtra(APP_LAUNCHER_NAME, intent.getStringExtra(APP_LAUNCHER_NAME) ?: "")
-            putExtra(APP_NAME, intent.getStringExtra(APP_NAME) ?: "")
-            putExtra(PRODUCT_ID_LIST, intent.getStringArrayListExtra(PRODUCT_ID_LIST) ?: arrayListOf("", "", ""))
-            putExtra(PRODUCT_ID_LIST_RU, intent.getStringArrayListExtra(PRODUCT_ID_LIST_RU) ?: arrayListOf("", "", ""))
-            putExtra(SUBSCRIPTION_ID_LIST, intent.getStringArrayListExtra(SUBSCRIPTION_ID_LIST) ?: arrayListOf("", "", ""))
-            putExtra(SUBSCRIPTION_ID_LIST_RU, intent.getStringArrayListExtra(SUBSCRIPTION_ID_LIST_RU) ?: arrayListOf("", "", ""))
-            putExtra(SUBSCRIPTION_YEAR_ID_LIST, intent.getStringArrayListExtra(SUBSCRIPTION_YEAR_ID_LIST) ?: arrayListOf("", "", ""))
-            putExtra(SUBSCRIPTION_YEAR_ID_LIST_RU, intent.getStringArrayListExtra(SUBSCRIPTION_YEAR_ID_LIST_RU) ?: arrayListOf("", "", ""))
-            putExtra(SHOW_LIFEBUOY, resources.getBoolean(R.bool.show_lifebuoy))
-            putExtra(PLAY_STORE_INSTALLED, intent.getBooleanExtra(PLAY_STORE_INSTALLED, true))
-            putExtra(RU_STORE, intent.getBooleanExtra(RU_STORE, false))
-            putExtra(SHOW_COLLECTION, resources.getBoolean(R.bool.show_collection))
-            startActivity(this)
-        }
+
     }
 
     private fun onGithubClick() {
-        val repositoryName = intent.getStringExtra(APP_REPOSITORY_NAME) ?: return
-        val url = "https://github.com/Goodwy/$repositoryName"
-        launchViewIntent(url)
+
     }
 
     @Composable
