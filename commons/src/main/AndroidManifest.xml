@@ -2,21 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <queries>
-        <package android:name="com.goodwy.audiobook.debug" />
-        <package android:name="com.goodwy.audiobook" />
-        <package android:name="com.goodwy.voicerecorder.debug" />
-        <package android:name="com.goodwy.voicerecorder" />
-        <package android:name="com.goodwy.files.debug" />
-        <package android:name="com.goodwy.files" />
-        <package android:name="com.goodwy.dialer.debug" />
-        <package android:name="com.goodwy.dialer" />
-        <package android:name="com.goodwy.contacts.debug" />
-        <package android:name="com.goodwy.contacts" />
-        <package android:name="com.goodwy.smsmessenger.debug" />
-        <package android:name="com.goodwy.smsmessenger" />
-    </queries>
-
     <uses-feature
         android:name="android.hardware.faketouch"
         android:required="false" />
@@ -39,6 +24,7 @@
         tools:node="remove" />
 
     <uses-permission android:name="org.fossify.android.permission.WRITE_GLOBAL_SETTINGS" />
+
 
     <application android:supportsRtl="true">
         <activity
