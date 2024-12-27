@@ -83,52 +83,7 @@ fun RateStarsAlertDialog(
     modifier: Modifier = Modifier,
     onRating: (stars: Int) -> Unit
 ) {
-    AlertDialog(
-        onDismissRequest = alertDialogState::hide,
-        properties = DialogProperties(
-            dismissOnBackPress = false,
-            dismissOnClickOutside = false
-        ),
-        modifier = modifier
-    ) {
-        var currentRating by remember { mutableIntStateOf(0) }
-        val coroutineScope = rememberCoroutineScope()
-        DialogSurface {
-            Column {
-                Text(
-                    text = stringResource(id = R.string.rate_our_app),
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(top = SimpleTheme.dimens.padding.extraLarge, bottom = SimpleTheme.dimens.padding.large),
-                    textAlign = TextAlign.Center,
-                    color = dialogTextColor,
-                    fontSize = 16.sp
-                )
-                StarRating(
-                    modifier = Modifier
-                        .align(CenterHorizontally)
-                        .padding(SimpleTheme.dimens.padding.extraLarge),
-                    currentRating = currentRating,
-                    onRatingChanged = { stars ->
-                        currentRating = stars
-                        coroutineScope.launch {
-                            onRating(stars)
-                            delay(500L)
-                            alertDialogState.hide()
-                        }
-                    }
-                )
-                TextButton(
-                    onClick = alertDialogState::hide,
-                    modifier = Modifier
-                        .align(End)
-                        .padding(end = SimpleTheme.dimens.padding.extraLarge, bottom = SimpleTheme.dimens.padding.medium)
-                ) {
-                    Text(text = stringResource(id = R.string.later))
-                }
-            }
-        }
-    }
+
 }
 
 @Composable

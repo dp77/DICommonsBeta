@@ -61,7 +61,6 @@ class MainActivity : BaseSimpleActivity() {
         LaunchedEffect(Unit) {
             appLaunchedCompose(
                 appId = BuildConfig.APPLICATION_ID,
-                showRateUsDialog = rateStarsAlertDialogState::show,
             )
         }
     }

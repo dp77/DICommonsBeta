@@ -1156,7 +1156,6 @@ fun Activity.createTempFile(file: File): File? {
         createTempDir("temp", "${System.currentTimeMillis()}", file.parentFile)
     } else {
         if (isRPlus()) {
-            // this can throw FileSystemException, lets catch and handle it at the place calling this function
                 kotlin.io.path.createTempFile(file.parentFile.toPath(), "temp", "${System.currentTimeMillis()}").toFile()
         } else {
             createTempFile("temp", "${System.currentTimeMillis()}", file.parentFile)

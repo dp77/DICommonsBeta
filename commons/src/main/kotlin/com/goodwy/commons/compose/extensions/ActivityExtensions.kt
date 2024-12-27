@@ -15,7 +15,6 @@ import com.goodwy.commons.models.Release
 
 fun ComponentActivity.appLaunchedCompose(
     appId: String,
-    showRateUsDialog: () -> Unit
 ) {
     baseConfig.internalStoragePath = getInternalStoragePath()
     updateSDCardPath()
@@ -59,12 +58,6 @@ fun ComponentActivity.appLaunchedCompose(
 //            }
 //        }
 //    }
-
-    if (baseConfig.appRunCount % 40 == 0 && !baseConfig.wasAppRated) {
-        if (!resources.getBoolean(R.bool.hide_google_relations)) {
-            showRateUsDialog()
-        }
-    }
 }
 
 fun ComponentActivity.checkWhatsNewCompose(releases: List<Release>, currVersion: Int, showWhatsNewDialog: (List<Release>) -> Unit) {

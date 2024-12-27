@@ -36,7 +36,6 @@ fun MainScreen(
     showComposeDialogs: () -> Unit,
     openTestButton: () -> Unit,
     showMoreApps: Boolean,
-    openAbout: () -> Unit,
     moreAppsFromUs: () -> Unit,
     startPurchaseActivity: () -> Unit,
     isTopAppBarColorIcon: Boolean = false,

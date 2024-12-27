@@ -161,64 +161,6 @@ private fun Context.queryCursorDesc(
     }
 }
 
-fun Context.getLatestMediaByDateId(uri: Uri = Files.getContentUri("external")): Long {
-    val projection = arrayOf(
-        BaseColumns._ID
-    )
-    try {
-        val cursor = queryCursorDesc(uri, projection, Images.ImageColumns.DATE_TAKEN, 1)
-        cursor?.use {
-            if (cursor.moveToFirst()) {
-                return cursor.getLongValue(BaseColumns._ID)
-            }
-        }
-    } catch (ignored: Exception) {
-    }
-    return 0
-}
-
-// some helper functions were taken from https://github.com/iPaulPro/aFileChooser/blob/master/aFileChooser/src/com/ipaulpro/afilechooser/utils/FileUtils.java
-fun Context.getRealPathFromURI(uri: Uri): String? {
-    if (uri.scheme == "file") {
-        return uri.path
-    }
-
-    if (isDownloadsDocument(uri)) {
-        val id = DocumentsContract.getDocumentId(uri)
-        if (id.areDigitsOnly()) {
-            val newUri = ContentUris.withAppendedId(Uri.parse("content://downloads/public_downloads"), id.toLong())
-            val path = getDataColumn(newUri)
-            if (path != null) {
-                return path
-            }
-        }
-    } else if (isExternalStorageDocument(uri)) {
-        val documentId = DocumentsContract.getDocumentId(uri)
-        val parts = documentId.split(":")
-        if (parts[0].equals("primary", true)) {
-            return "${Environment.getExternalStorageDirectory().absolutePath}/${parts[1]}"
-        }
-    } else if (isMediaDocument(uri)) {
-        val documentId = DocumentsContract.getDocumentId(uri)
-        val split = documentId.split(":").dropLastWhile { it.isEmpty() }.toTypedArray()
-        val type = split[0]
-
-        val contentUri = when (type) {
-            "video" -> Video.Media.EXTERNAL_CONTENT_URI
-            "audio" -> Audio.Media.EXTERNAL_CONTENT_URI
-            else -> Images.Media.EXTERNAL_CONTENT_URI
-        }
-
-        val selection = "_id=?"
-        val selectionArgs = arrayOf(split[1])
-        val path = getDataColumn(contentUri, selection, selectionArgs)
-        if (path != null) {
-            return path
-        }
-    }
-
-    return getDataColumn(uri)
-}
 
 fun Context.getDataColumn(uri: Uri, selection: String? = null, selectionArgs: Array<String>? = null): String? {
     try {
@@ -247,6 +189,7 @@ fun Context.hasPermission(permId: Int) = ContextCompat.checkSelfPermission(this,
 
 fun Context.hasAllPermissions(permIds: Collection<Int>) = permIds.all(this::hasPermission)
 
+@RequiresApi(Build.VERSION_CODES.TIRAMISU)
 fun Context.getPermissionString(id: Int) = when (id) {
     PERMISSION_READ_STORAGE -> Manifest.permission.READ_EXTERNAL_STORAGE
     PERMISSION_WRITE_STORAGE -> Manifest.permission.WRITE_EXTERNAL_STORAGE
@@ -480,7 +423,7 @@ fun Context.getCurrentFormattedDateTime(): String {
 }
 
 fun Context.updateSDCardPath() {
-        ensureBackgroundThread {
+    ensureBackgroundThread {
         val oldPath = baseConfig.sdCardPath
         baseConfig.sdCardPath = getSDCardPath()
         if (oldPath != baseConfig.sdCardPath) {
@@ -1304,20 +1247,20 @@ fun Context.getRelationTypeText(type: Int, label: String): String {
         getString(
             when (type) {
                 // Relation.TYPE_CUSTOM   -> com.goodwy.strings.R.string.custom
-                Relation.TYPE_ASSISTANT   -> com.goodwy.strings.R.string.relation_assistant_g
-                Relation.TYPE_BROTHER     -> com.goodwy.strings.R.string.relation_brother_g
-                Relation.TYPE_CHILD       -> com.goodwy.strings.R.string.relation_child_g
+                Relation.TYPE_ASSISTANT -> com.goodwy.strings.R.string.relation_assistant_g
+                Relation.TYPE_BROTHER -> com.goodwy.strings.R.string.relation_brother_g
+                Relation.TYPE_CHILD -> com.goodwy.strings.R.string.relation_child_g
                 Relation.TYPE_DOMESTIC_PARTNER -> com.goodwy.strings.R.string.relation_domestic_partner_g
-                Relation.TYPE_FATHER      -> com.goodwy.strings.R.string.relation_father_g
-                Relation.TYPE_FRIEND      -> com.goodwy.strings.R.string.relation_friend_g
-                Relation.TYPE_MANAGER     -> com.goodwy.strings.R.string.relation_manager_g
-                Relation.TYPE_MOTHER      -> com.goodwy.strings.R.string.relation_mother_g
-                Relation.TYPE_PARENT      -> com.goodwy.strings.R.string.relation_parent_g
-                Relation.TYPE_PARTNER     -> com.goodwy.strings.R.string.relation_partner_g
+                Relation.TYPE_FATHER -> com.goodwy.strings.R.string.relation_father_g
+                Relation.TYPE_FRIEND -> com.goodwy.strings.R.string.relation_friend_g
+                Relation.TYPE_MANAGER -> com.goodwy.strings.R.string.relation_manager_g
+                Relation.TYPE_MOTHER -> com.goodwy.strings.R.string.relation_mother_g
+                Relation.TYPE_PARENT -> com.goodwy.strings.R.string.relation_parent_g
+                Relation.TYPE_PARTNER -> com.goodwy.strings.R.string.relation_partner_g
                 Relation.TYPE_REFERRED_BY -> com.goodwy.strings.R.string.relation_referred_by_g
-                Relation.TYPE_RELATIVE    -> com.goodwy.strings.R.string.relation_relative_g
-                Relation.TYPE_SISTER      -> com.goodwy.strings.R.string.relation_sister_g
-                Relation.TYPE_SPOUSE      -> com.goodwy.strings.R.string.relation_spouse_g
+                Relation.TYPE_RELATIVE -> com.goodwy.strings.R.string.relation_relative_g
+                Relation.TYPE_SISTER -> com.goodwy.strings.R.string.relation_sister_g
+                Relation.TYPE_SPOUSE -> com.goodwy.strings.R.string.relation_spouse_g
 
                 // Relation types defined in vCard 4.0
                 ContactRelation.TYPE_CONTACT -> com.goodwy.strings.R.string.relation_contact_g
@@ -1406,12 +1349,15 @@ fun Context.startCallPendingIntent(recipient: String, key: String = ""): Pending
         0,
         Intent(Intent.ACTION_CALL, Uri.fromParts("tel", recipient, null))
             .putExtra(IS_RIGHT_APP, key),
-        PendingIntent.FLAG_CANCEL_CURRENT or PendingIntent.FLAG_IMMUTABLE)
+        PendingIntent.FLAG_CANCEL_CURRENT or PendingIntent.FLAG_IMMUTABLE
+    )
 }
 
 fun Context.sendSMSPendingIntent(recipient: String): PendingIntent {
-    return PendingIntent.getActivity(this, 0,
-        Intent(Intent.ACTION_SENDTO, Uri.fromParts("smsto", recipient, null)), PendingIntent.FLAG_CANCEL_CURRENT or PendingIntent.FLAG_IMMUTABLE)
+    return PendingIntent.getActivity(
+        this, 0,
+        Intent(Intent.ACTION_SENDTO, Uri.fromParts("smsto", recipient, null)), PendingIntent.FLAG_CANCEL_CURRENT or PendingIntent.FLAG_IMMUTABLE
+    )
 }
 
 fun Context.getLetterBackgroundColors(): ArrayList<Long> {
@@ -1458,17 +1404,7 @@ fun Context.isRuStoreInstalled(): Boolean {
     return isPackageInstalled("ru.vk.store")
 }
 
-fun Context.isPro() = baseConfig.isPro || baseConfig.isProSubs || baseConfig.isProRuStore
-
-fun Context.isCollection(): Boolean {
-    return isPackageInstalled("com.goodwy.dialer")
-        && isPackageInstalled("com.goodwy.contacts")
-        && isPackageInstalled("com.goodwy.smsmessenger")
-        && isPackageInstalled("com.goodwy.gallery")
-        && isPackageInstalled("com.goodwy.audiobooklite")
-        && isPackageInstalled("com.goodwy.filemanager")
-        && isPackageInstalled("com.goodwy.keyboard")
-}
+fun isPro() = true
 
 fun Context.isTalkBackOn(): Boolean {
     val am = getSystemService(Context.ACCESSIBILITY_SERVICE) as AccessibilityManager

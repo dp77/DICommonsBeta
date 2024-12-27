@@ -7,7 +7,6 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.content.res.ResourcesCompat
 import com.goodwy.commons.R
-import com.goodwy.commons.compose.extensions.config
 import com.goodwy.commons.databinding.ActivityCustomizationBinding
 import com.goodwy.commons.dialogs.*
 import com.goodwy.commons.extensions.*
@@ -60,7 +59,7 @@ class CustomizationActivity : BaseSimpleActivity() {
     private fun getShowAccentColor() = intent.getBooleanExtra(SHOW_ACCENT_COLOR, false)
     private fun getShowAppIconColor() = intent.getBooleanExtra(SHOW_APP_ICON_COLOR, false)
 
-    private fun isProVersion() = intent.getBooleanExtra(IS_COLLECTION, false) || isPro()
+    private fun isProVersion() = intent.getBooleanExtra(IS_COLLECTION, true) || isPro()
     private fun getProductIdList() = intent.getStringArrayListExtra(PRODUCT_ID_LIST) ?: arrayListOf("", "", "")
     private fun getProductIdListRu() = intent.getStringArrayListExtra(PRODUCT_ID_LIST_RU) ?: arrayListOf("", "", "")
     private fun getSubscriptionIdList() = intent.getStringArrayListExtra(SUBSCRIPTION_ID_LIST) ?: arrayListOf("", "", "")
