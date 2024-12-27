@@ -44,7 +44,6 @@ class MainActivity : BaseSimpleActivity() {
                     },
                     openTestButton = ::securityDialog,
                     showMoreApps = showMoreApps,
-                    openAbout = ::launchAbout,
                     moreAppsFromUs = ::launchMoreAppsFromUsIntent,
                     startPurchaseActivity = ::launchPurchase,
                     isTopAppBarColorIcon = isTopAppBarColorIcon,

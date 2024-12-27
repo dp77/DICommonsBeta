@@ -50,7 +50,6 @@ fun MainScreen(
                     val actionMenus = remember {
                         buildActionMenuItems(
                             showMoreApps = showMoreApps,
-                            openAbout = openAbout,
                             moreAppsFromUs = moreAppsFromUs
                         )
                     }
@@ -106,16 +105,9 @@ fun MainScreen(
 
 private fun buildActionMenuItems(
     showMoreApps: Boolean,
-    openAbout: () -> Unit,
     moreAppsFromUs: () -> Unit
 ): ImmutableList<ActionItem> {
     val list = mutableListOf<ActionItem>()
-    list += ActionItem(
-        R.string.about,
-        icon = Icons.Outlined.Info,
-        doAction = openAbout,
-        overflowMode = OverflowMode.NEVER_OVERFLOW,
-    )
     if (showMoreApps) {
         list += ActionItem(
             R.string.more_apps_from_us,
@@ -145,7 +137,6 @@ private fun MainScreenPreview() {
             showComposeDialogs = {},
             openTestButton = {},
             showMoreApps = true,
-            openAbout = {},
             moreAppsFromUs = {},
             startPurchaseActivity = {},
         )
