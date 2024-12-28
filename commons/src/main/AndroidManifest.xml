@@ -55,10 +55,6 @@
             android:label="@string/manage_blocked_numbers"
             tools:targetApi="tiramisu" />
 
-        <activity
-            android:name=".activities.AppLockActivity"
-            android:exported="false" />
-
         <receiver
             android:name=".receivers.RightBroadcastReceiver"
             android:exported="true"

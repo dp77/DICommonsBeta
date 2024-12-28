@@ -131,7 +131,6 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             }
 
             updateNavigationBarColor(navBarColor)
-            maybeLaunchAppUnlockActivity(requestCode = REQUEST_APP_UNLOCK)
         }
     }
 
@@ -680,53 +679,6 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             isPathOnSD(path) -> isSDAndroidDir(uri)
             else -> isInternalStorageAndroidDir(uri)
         }
-    }
-
-    fun startAboutActivity(
-        appNameId: Int,
-        licenseMask: Long,
-        versionName: String,
-        faqItems: ArrayList<FAQItem>,
-        showFAQBeforeMail: Boolean,
-        productIdList: ArrayList<String>, productIdListRu: ArrayList<String>,
-        subscriptionIdList: ArrayList<String>, subscriptionIdListRu: ArrayList<String>,
-        subscriptionYearIdList: ArrayList<String>, subscriptionYearIdListRu: ArrayList<String>,
-        playStoreInstalled: Boolean = true,
-        ruStoreInstalled: Boolean = false
-    ) {
-        hideKeyboard()
-        Intent(applicationContext, AboutActivity::class.java).apply {
-            putExtra(APP_ICON_IDS, getAppIconIDs())
-            putExtra(APP_LAUNCHER_NAME, getAppLauncherName())
-            putExtra(APP_NAME, getString(appNameId))
-            putExtra(APP_REPOSITORY_NAME, getRepositoryName())
-            putExtra(APP_LICENSES, licenseMask)
-            putExtra(APP_VERSION_NAME, versionName)
-            putExtra(APP_PACKAGE_NAME, baseConfig.appId)
-            putExtra(APP_FAQ, faqItems)
-            putExtra(SHOW_FAQ_BEFORE_MAIL, showFAQBeforeMail)
-            //Goodwy
-            putExtra(PRODUCT_ID_LIST, productIdList)
-            putExtra(PRODUCT_ID_LIST_RU, productIdListRu)
-            putExtra(SUBSCRIPTION_ID_LIST, subscriptionIdList)
-            putExtra(SUBSCRIPTION_ID_LIST_RU, subscriptionIdListRu)
-            putExtra(SUBSCRIPTION_YEAR_ID_LIST, subscriptionYearIdList)
-            putExtra(SUBSCRIPTION_YEAR_ID_LIST_RU, subscriptionYearIdListRu)
-            putExtra(PLAY_STORE_INSTALLED, playStoreInstalled)
-            putExtra(RU_STORE, ruStoreInstalled)
-            startActivity(this)
-        }
-    }
-
-    fun startPurchaseActivity(appNameId: Int,
-                              productIdList: ArrayList<String>, productIdListRu: ArrayList<String>,
-                              subscriptionIdList: ArrayList<String>, subscriptionIdListRu: ArrayList<String>,
-                              subscriptionYearIdList: ArrayList<String>, subscriptionYearIdListRu: ArrayList<String>,
-                              showLifebuoy: Boolean = resources.getBoolean(R.bool.show_lifebuoy),
-                              playStoreInstalled: Boolean = true,
-                              ruStoreInstalled: Boolean = false,
-                              showCollection: Boolean = resources.getBoolean(R.bool.show_collection)) {
-
     }
 
     fun startCustomizationActivity(showAccentColor : Boolean = false, isCollection : Boolean = false,

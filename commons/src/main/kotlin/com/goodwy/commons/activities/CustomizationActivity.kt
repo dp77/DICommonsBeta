@@ -927,13 +927,7 @@ class CustomizationActivity : BaseSimpleActivity() {
     }
 
     private fun launchPurchase() {
-        startPurchaseActivity(
-            stringsR.string.app_name_g,
-            getProductIdList(), getProductIdListRu(),
-            getSubscriptionIdList(), getSubscriptionIdListRu(),
-            getSubscriptionYearIdList(), getSubscriptionYearIdListRu(),
-            playStoreInstalled = playStoreInstalled(),
-            ruStoreInstalled = ruStoreInstalled())
+
     }
 
     private fun shakePurchase() {
