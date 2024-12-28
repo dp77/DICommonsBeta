@@ -158,7 +158,7 @@
     <string name="faq_2_text_commons_g">
         <![CDATA[
         Áno, samozrejme. Môžete napr. šíriť apky medzi známymi, alebo nám poslať užitočnú odozvu a hodnotenia. Viete pomôcť aj preložením apiek do nových jazykov, alebo upraviť existujúce preklady.
-        Návod nájdete na https://github.com/Goodwy/Discussion , alebo mi v prípade potreby pošlite email na goodwy.dev@gmail.com.
+        Návod nájdete na https://github.com/dilib/Discussion , alebo mi v prípade potreby pošlite email na goodwy.dev@gmail.com.
         ]]>
     </string>
     <string name="faq_6_text_commons_g">Tento problém nastáva, keď spúšťač plne nepodporuje prispôsobenie ikon. Skúste spustiť aplikáciu cez Google Play alebo miniaplikáciu, ak je k dispozícii.         Po spustení obnovte predvolenú farbu ikony aplikácie. V extrémnych prípadoch môže byť potrebná preinštalovanie aplikácie.</string>
@@ -173,11 +173,11 @@
     <string name="contributors_label_g">
         <![CDATA[
             This list contains everyone that noticeably helped any app within the Goodwy suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Goodwy/Discussion">this website</a>, or just contact us at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you have any questions.
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/dilib/Discussion">this website</a>, or just contact us at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
-    <string name="deprecated_app_g">ZASTARALÁ: Táto verzia aplikácie už nie je podporovaná. Stiahnite si Pro verziu na https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
+    <string name="deprecated_app_g">ZASTARALÁ: Táto verzia aplikácie už nie je podporovaná. Stiahnite si Pro verziu na https://play.google.com/store/apps/details?id=com.dilib.xxx.pro</string>
     <string name="pro_app_refund_g">Nezabudnite, že ak odinštalujete platenú verziu do 2 hodín, peniaze vám budú automaticky vrátené. Ak ich budete chcieť späť hocikedy neskôr, len nám dajte vedieť na goodwy.dev@gmail.com. To vám zabezpečí jednoduchý spôsob na ich vyskúšanie :)</string>
 
     <!-- Contacts -->

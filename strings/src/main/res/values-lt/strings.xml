@@ -157,7 +157,7 @@
     <string name="update_thank_you_g">Please update Goodwy Thank You to the latest version</string>
     <string name="faq_2_text_commons_g">
         <![CDATA[
-        Taip, žinoma. Galite skleisti žodį apie programėles arba pateikti gerus atsiliepimus ir įvertinimus. Taip pat galite padėti verčiant programėles nauja kalba arba tiesiog atnaujinkite keletą esamų vertimų.Vadovą galite rasti adresu https://github.com/Goodwy/Discussion, arba tiesiog rašykite man žinutę goodwy.dev@gmail.com, jei jums reikia pagalbos.
+        Taip, žinoma. Galite skleisti žodį apie programėles arba pateikti gerus atsiliepimus ir įvertinimus. Taip pat galite padėti verčiant programėles nauja kalba arba tiesiog atnaujinkite keletą esamų vertimų.Vadovą galite rasti adresu https://github.com/dilib/Discussion, arba tiesiog rašykite man žinutę goodwy.dev@gmail.com, jei jums reikia pagalbos.
         ]]>
     </string>
     <string name="faq_6_text_commons_g">Ši problema kyla, kai paleidimo priemonė visiškai nepalaiko piktogramų tinkinimo. Pabandykite paleisti programą naudodami \"Google Play\" arba valdiklį, jei jis pasiekiamas.         Paleidę atkurkite numatytąją programos piktogramos spalvą. Kraštutiniais atvejais gali tekti iš naujo įdiegti programą.</string>
@@ -172,11 +172,11 @@
     <string name="contributors_label_g">
         <![CDATA[
             This list contains everyone that noticeably helped any app within the Goodwy suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Goodwy/Discussion">this website</a>, or just contact us at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you have any questions.
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/dilib/Discussion">this website</a>, or just contact us at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
-    <string name="deprecated_app_g">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
+    <string name="deprecated_app_g">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.dilib.xxx.pro</string>
     <string name="pro_app_refund_g">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it. That makes it easy to try it out :)</string>
 
     <!-- Contacts -->

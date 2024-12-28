@@ -158,7 +158,7 @@
     <string name="faq_2_text_commons_g">
         <![CDATA[
         當然好囉。你可以推廣關於這應用程式，或是給予好的反饋和評分。你也可以幫忙把這應用程式翻譯成新的語言，或者只更新一些現有的翻譯。
-	    你可以在 https://github.com/Goodwy/Discussion 找到教學，或者若你需要幫忙，只要發個訊息到 goodwy.dev@gmail.com。
+	    你可以在 https://github.com/dilib/Discussion 找到教學，或者若你需要幫忙，只要發個訊息到 goodwy.dev@gmail.com。
         ]]>
     </string>
     <string name="faq_6_text_commons_g">當您的啟動器不完全支援圖示自定義時，會出現此問題。嘗試通過Google Play或小組件（如果可存取）啟動應用程式。        啟動后，恢復預設應用程式圖示顏色。在極端情況下，可能需要重新安裝應用程式。</string>
@@ -173,11 +173,11 @@
     <string name="contributors_label_g">
         <![CDATA[
             This list contains everyone that noticeably helped any app within the Goodwy suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Goodwy/Discussion">this website</a>, or just contact us at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you have any questions.
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/dilib/Discussion">this website</a>, or just contact us at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
-    <string name="deprecated_app_g">已捨棄: 這版本的應用程式不再維護，在這取得專業版  https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
+    <string name="deprecated_app_g">已捨棄: 這版本的應用程式不再維護，在這取得專業版  https://play.google.com/store/apps/details?id=com.dilib.xxx.pro</string>
     <string name="pro_app_refund_g">別忘記如果您在2小時內解除安裝任何付費應用程式，將會自動被退款。若您在之後隨時想退款，只要透過 goodwy.dev@gmail.com 聯絡我們，即可收到退款。這麼一來輕鬆就能試用了 :)</string>
 
     <!-- Contacts -->

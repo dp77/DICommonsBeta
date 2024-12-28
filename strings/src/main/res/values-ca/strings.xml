@@ -158,7 +158,7 @@
     <string name="faq_2_text_commons_g">
         <![CDATA[
         Sí, per suposat. Podeu donar a conneixer les aplicacions o donar-ne una bona opinió i valoracions. També podeu ajudar per traduir les aplicacions en un nou idioma o, simplement, actualitzar algunes de les traduccions existents.
-        Podeu trobar la guia a <a href="https://github.com/Goodwy/Discussion">https://github.com/Goodwy/Discussion</a>, o simplement enviar-me un missatge a <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> si necessiteu ajuda.
+        Podeu trobar la guia a <a href="https://github.com/dilib/Discussion">https://github.com/dilib/Discussion</a>, o simplement enviar-me un missatge a <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> si necessiteu ajuda.
         ]]>
     </string>
     <string name="faq_6_text_commons_g">Aquest problema sorgeix quan el vostre llançador no admet completament la personalització d\'icones. Proveu d\'iniciar l\'aplicació mitjançant Google Play o un giny, si és accessible.         Després de llançar-lo, restaureu el color predeterminat de la icona de l\'aplicació. En casos extrems, pot ser necessari tornar a instal·lar l\'aplicació.</string>
@@ -173,11 +173,11 @@
     <string name="contributors_label_g">
         <![CDATA[
             This list contains everyone that noticeably helped any app within the Goodwy suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Goodwy/Discussion">this website</a>, or just contact us at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you have any questions.
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/dilib/Discussion">this website</a>, or just contact us at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
-    <string name="deprecated_app_g">DESCONTINUADA: Aquesta versió de l\’aplicació ja no es manté, obteniu la versió Pro a l\'adreça https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
+    <string name="deprecated_app_g">DESCONTINUADA: Aquesta versió de l\’aplicació ja no es manté, obteniu la versió Pro a l\'adreça https://play.google.com/store/apps/details?id=com.dilib.xxx.pro</string>
     <string name="pro_app_refund_g">No us oblideu que si desinstal·leu qualsevol aplicació de pagament en un termini de 2 hores, se us retornarà automàticament. Si voleu un reemborsament en qualsevol moment més tard, poseu-vos en contacte amb nosaltres a goodwy.dev@gmail.com i ho rebreu. Això fa que sigui fàcil provar-ho :)</string>
 
     <!-- Contacts -->

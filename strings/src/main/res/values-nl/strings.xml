@@ -158,7 +158,7 @@
     <string name="faq_2_text_commons_g">
         <![CDATA[
         Maar natuurlijk! Vertel anderen over deze apps of geef feedback en positieve beoordelingen. Ook het vertalen van de apps in een nieuwe taal of het bijwerken van bestaande vertalingen wordt gewaardeerd.
-        Een handleiding is te vinden op https://github.com/Goodwy/Discussion , of stuur me een bericht via goodwy.dev@gmail.com voor hulp.
+        Een handleiding is te vinden op https://github.com/dilib/Discussion , of stuur me een bericht via goodwy.dev@gmail.com voor hulp.
         ]]>
     </string>
     <string name="faq_6_text_commons_g">Dit probleem doet zich voor wanneer uw launcher het aanpassen van pictogrammen niet volledig ondersteunt. Probeer de app te starten via Google Play of een widget, indien toegankelijk.         Herstel na het starten de standaard app-pictogramkleur. In extreme gevallen kan het nodig zijn om de app opnieuw te installeren.</string>
@@ -173,11 +173,11 @@
     <string name="contributors_label_g">
         <![CDATA[
             This list contains everyone that noticeably helped any app within the Goodwy suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Goodwy/Discussion">this website</a>, or just contact us at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you have any questions.
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/dilib/Discussion">this website</a>, or just contact us at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
-    <string name="deprecated_app_g">VEROUDERD: Deze versie van de app wordt niet langer doorontwikkeld. De Pro-versie is de vinden op https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
+    <string name="deprecated_app_g">VEROUDERD: Deze versie van de app wordt niet langer doorontwikkeld. De Pro-versie is de vinden op https://play.google.com/store/apps/details?id=com.dilib.xxx.pro</string>
     <string name="pro_app_refund_g">Bij het deïnstalleren van de app binnen 2 uur na aanschaf wordt het aankoopbedrag automatisch teruggestort. Wilt u op een later tijdstip een terugbetaling, neem dan contact op via goodwy.dev@gmail.com en het wordt geregeld. Zodoende blijft het gemakkelijk om de app uit te proberen :)</string>
 
     <!-- Contacts -->

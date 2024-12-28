@@ -24,7 +24,7 @@
         errorLine1="            color = R.color.color_primary,"
         errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/dialogs/LineColorPickerDialog.kt"
+            file="src/main/kotlin/com/dilib/commons/dialogs/LineColorPickerDialog.kt"
             line="331"
             column="21"/>
     </issue>
@@ -35,7 +35,7 @@
         errorLine1="            prefs.edit().putBoolean(USE_ENGLISH, useEnglish).commit()"
         errorLine2="                                                             ~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/helpers/BaseConfig.kt"
+            file="src/main/kotlin/com/dilib/commons/helpers/BaseConfig.kt"
             line="227"
             column="62"/>
     </issue>
@@ -46,7 +46,7 @@
         errorLine1="            val newName = String.format(&quot;%s(%d).%s&quot;, file.nameWithoutExtension, fileIndex, file.extension)"
         errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/BaseSimpleActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/BaseSimpleActivity.kt"
             line="957"
             column="27"/>
     </issue>
@@ -57,7 +57,7 @@
         errorLine1="import android.media.ExifInterface"
         errorLine2="       ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Int.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Int.kt"
             line="6"
             column="8"/>
     </issue>
@@ -68,7 +68,7 @@
         errorLine1="    PERMISSION_POST_NOTIFICATIONS -> Manifest.permission.POST_NOTIFICATIONS"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context.kt"
             line="257"
             column="38"/>
     </issue>
@@ -79,7 +79,7 @@
         errorLine1="    PERMISSION_READ_MEDIA_IMAGES -> Manifest.permission.READ_MEDIA_IMAGES"
         errorLine2="                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context.kt"
             line="258"
             column="37"/>
     </issue>
@@ -90,7 +90,7 @@
         errorLine1="    PERMISSION_READ_MEDIA_VIDEO -> Manifest.permission.READ_MEDIA_VIDEO"
         errorLine2="                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context.kt"
             line="259"
             column="36"/>
     </issue>
@@ -101,7 +101,7 @@
         errorLine1="    PERMISSION_READ_MEDIA_AUDIO -> Manifest.permission.READ_MEDIA_AUDIO"
         errorLine2="                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context.kt"
             line="260"
             column="36"/>
     </issue>
@@ -112,7 +112,7 @@
         errorLine1="    PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED -> Manifest.permission.READ_MEDIA_VISUAL_USER_SELECTED"
         errorLine2="                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context.kt"
             line="263"
             column="51"/>
     </issue>
@@ -123,7 +123,7 @@
         errorLine1="        val resourceId = resources.getIdentifier(&quot;navigation_bar_height&quot;, &quot;dimen&quot;, &quot;android&quot;)"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context.kt"
             line="946"
             column="26"/>
     </issue>
@@ -134,7 +134,7 @@
         errorLine1="        val resourceId = resources.getIdentifier(&quot;status_bar_height&quot;, &quot;dimen&quot;, &quot;android&quot;)"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context.kt"
             line="956"
             column="26"/>
     </issue>
@@ -145,7 +145,7 @@
         errorLine1="    val id = getIdentifier(&quot;navigation_bar_height&quot;, &quot;dimen&quot;, &quot;android&quot;)"
         errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Resources.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Resources.kt"
             line="35"
             column="14"/>
     </issue>
@@ -156,7 +156,7 @@
         errorLine1="val Context.shortcutManager: ShortcutManager get() = getSystemService(ShortcutManager::class.java) as ShortcutManager"
         errorLine2="                                                                      ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context.kt"
             line="928"
             column="71"/>
     </issue>
@@ -167,7 +167,7 @@
         errorLine1="                                    activity.contentResolver.delete(uri, null)"
         errorLine2="                                                             ~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/RenamePatternTab.kt"
+            file="src/main/kotlin/com/dilib/commons/views/RenamePatternTab.kt"
             line="217"
             column="62"/>
     </issue>
@@ -178,7 +178,7 @@
         errorLine1="                                    activity.contentResolver.delete(uri, null)"
         errorLine2="                                                             ~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/RenameSimpleTab.kt"
+            file="src/main/kotlin/com/dilib/commons/views/RenameSimpleTab.kt"
             line="166"
             column="62"/>
     </issue>
@@ -244,7 +244,7 @@
         errorLine1="fun Cursor.getStringValue(key: String) = getString(getColumnIndex(key))"
         errorLine2="                                                   ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Cursor.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Cursor.kt"
             line="5"
             column="52"/>
     </issue>
@@ -255,7 +255,7 @@
         errorLine1="fun Cursor.getStringValueOrNull(key: String) = if (isNull(getColumnIndex(key))) null else getString(getColumnIndex(key))"
         errorLine2="                                                          ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Cursor.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Cursor.kt"
             line="7"
             column="59"/>
     </issue>
@@ -266,7 +266,7 @@
         errorLine1="fun Cursor.getStringValueOrNull(key: String) = if (isNull(getColumnIndex(key))) null else getString(getColumnIndex(key))"
         errorLine2="                                                                                                    ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Cursor.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Cursor.kt"
             line="7"
             column="101"/>
     </issue>
@@ -277,7 +277,7 @@
         errorLine1="fun Cursor.getIntValue(key: String) = getInt(getColumnIndex(key))"
         errorLine2="                                             ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Cursor.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Cursor.kt"
             line="9"
             column="46"/>
     </issue>
@@ -288,7 +288,7 @@
         errorLine1="fun Cursor.getIntValueOrNull(key: String) = if (isNull(getColumnIndex(key))) null else getInt(getColumnIndex(key))"
         errorLine2="                                                       ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Cursor.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Cursor.kt"
             line="11"
             column="56"/>
     </issue>
@@ -299,7 +299,7 @@
         errorLine1="fun Cursor.getIntValueOrNull(key: String) = if (isNull(getColumnIndex(key))) null else getInt(getColumnIndex(key))"
         errorLine2="                                                                                              ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Cursor.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Cursor.kt"
             line="11"
             column="95"/>
     </issue>
@@ -310,7 +310,7 @@
         errorLine1="fun Cursor.getLongValue(key: String) = getLong(getColumnIndex(key))"
         errorLine2="                                               ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Cursor.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Cursor.kt"
             line="13"
             column="48"/>
     </issue>
@@ -321,7 +321,7 @@
         errorLine1="fun Cursor.getLongValueOrNull(key: String) = if (isNull(getColumnIndex(key))) null else getLong(getColumnIndex(key))"
         errorLine2="                                                        ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Cursor.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Cursor.kt"
             line="15"
             column="57"/>
     </issue>
@@ -332,7 +332,7 @@
         errorLine1="fun Cursor.getLongValueOrNull(key: String) = if (isNull(getColumnIndex(key))) null else getLong(getColumnIndex(key))"
         errorLine2="                                                                                                ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Cursor.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Cursor.kt"
             line="15"
             column="97"/>
     </issue>
@@ -343,7 +343,7 @@
         errorLine1="fun Cursor.getBlobValue(key: String) = getBlob(getColumnIndex(key))"
         errorLine2="                                               ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Cursor.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Cursor.kt"
             line="17"
             column="48"/>
     </issue>
@@ -354,7 +354,7 @@
         errorLine1="    &quot;/mnt/extsdcard&quot;, &quot;/mnt/sdcard/external_sd&quot;, // Samsung galaxy family"
         errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context-storage.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context-storage.kt"
             line="924"
             column="24"/>
     </issue>
@@ -365,7 +365,7 @@
         errorLine1="    &quot;/data/sdext&quot;, &quot;/data/sdext2&quot;, &quot;/data/sdext3&quot;, &quot;/data/sdext4&quot;, &quot;/sdcard1&quot;, // Sony Xperia Z"
         errorLine2="                                                                    ~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context-storage.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context-storage.kt"
             line="930"
             column="69"/>
     </issue>
@@ -376,7 +376,7 @@
         errorLine1="    &quot;/sdcard2&quot;, // HTC One M8s"
         errorLine2="     ~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context-storage.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context-storage.kt"
             line="931"
             column="6"/>
     </issue>
@@ -398,7 +398,7 @@
         errorLine1="        conf.locale = Locale.ENGLISH"
         errorLine2="             ~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/App.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/App.kt"
             line="10"
             column="14"/>
     </issue>
@@ -409,7 +409,7 @@
         errorLine1="                actBarTextView = layoutInflater.inflate(R.layout.actionbar_title, null) as TextView"
         errorLine2="                                                                                  ~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/adapters/MyRecyclerViewAdapter.kt"
+            file="src/main/kotlin/com/dilib/commons/adapters/MyRecyclerViewAdapter.kt"
             line="71"
             column="83"/>
     </issue>
@@ -420,7 +420,7 @@
         errorLine1="                actBarTextView = layoutInflater.inflate(R.layout.actionbar_title, null) as TextView"
         errorLine2="                                                                                  ~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/adapters/MyRecyclerViewListAdapter.kt"
+            file="src/main/kotlin/com/dilib/commons/adapters/MyRecyclerViewListAdapter.kt"
             line="79"
             column="83"/>
     </issue>
@@ -431,7 +431,7 @@
         errorLine1="                val radioButton = (activity.layoutInflater.inflate(R.layout.radio_button, null) as RadioButton).apply {"
         errorLine2="                                                                                          ~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/dialogs/RadioGroupDialog.kt"
+            file="src/main/kotlin/com/dilib/commons/dialogs/RadioGroupDialog.kt"
             line="55"
             column="91"/>
     </issue>
@@ -442,7 +442,7 @@
         errorLine1="        val radioButton = (activity.layoutInflater.inflate(R.layout.item_select_alarm_sound, null) as MyCompatRadioButton).apply {"
         errorLine2="                                                                                             ~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/dialogs/SelectAlarmSoundDialog.kt"
+            file="src/main/kotlin/com/dilib/commons/dialogs/SelectAlarmSoundDialog.kt"
             line="75"
             column="94"/>
     </issue>
@@ -475,7 +475,7 @@
         errorLine1="class MyAutoCompleteTextView : AutoCompleteTextView {"
         errorLine2="                               ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/MyAutoCompleteTextView.kt"
+            file="src/main/kotlin/com/dilib/commons/views/MyAutoCompleteTextView.kt"
             line="9"
             column="32"/>
     </issue>
@@ -486,7 +486,7 @@
         errorLine1="class MyButton : Button {"
         errorLine2="                 ~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/MyButton.kt"
+            file="src/main/kotlin/com/dilib/commons/views/MyButton.kt"
             line="7"
             column="18"/>
     </issue>
@@ -497,7 +497,7 @@
         errorLine1="class MySeekBar : SeekBar {"
         errorLine2="                  ~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/MySeekBar.kt"
+            file="src/main/kotlin/com/dilib/commons/views/MySeekBar.kt"
             line="8"
             column="19"/>
     </issue>
@@ -508,7 +508,7 @@
         errorLine1="class MyTextView : TextView {"
         errorLine2="                   ~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/MyTextView.kt"
+            file="src/main/kotlin/com/dilib/commons/views/MyTextView.kt"
             line="7"
             column="20"/>
     </issue>
@@ -548,66 +548,66 @@
 
     <issue
         id="RestrictedApi"
-        message="AnimationUtils.LINEAR_OUT_SLOW_IN_INTERPOLATOR can only be accessed from within the same library group (referenced groupId=`com.google.android.material` from groupId=`com.goodwy`)"
+        message="AnimationUtils.LINEAR_OUT_SLOW_IN_INTERPOLATOR can only be accessed from within the same library group (referenced groupId=`com.google.android.material` from groupId=`com.dilib`)"
         errorLine1="        animateChildTo(0, ENTER_ANIMATION_DURATION.toLong(), AnimationUtils.LINEAR_OUT_SLOW_IN_INTERPOLATOR, true)"
         errorLine2="                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/bottomactionmenu/BottomActionMenuView.kt"
+            file="src/main/kotlin/com/dilib/commons/views/bottomactionmenu/BottomActionMenuView.kt"
             line="70"
             column="77"/>
     </issue>
 
     <issue
         id="RestrictedApi"
-        message="AnimationUtils.FAST_OUT_LINEAR_IN_INTERPOLATOR can only be accessed from within the same library group (referenced groupId=`com.google.android.material` from groupId=`com.goodwy`)"
+        message="AnimationUtils.FAST_OUT_LINEAR_IN_INTERPOLATOR can only be accessed from within the same library group (referenced groupId=`com.google.android.material` from groupId=`com.dilib`)"
         errorLine1="            AnimationUtils.FAST_OUT_LINEAR_IN_INTERPOLATOR"
         errorLine2="                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/bottomactionmenu/BottomActionMenuView.kt"
+            file="src/main/kotlin/com/dilib/commons/views/bottomactionmenu/BottomActionMenuView.kt"
             line="81"
             column="28"/>
     </issue>
 
     <issue
         id="RestrictedApi"
-        message="AppCompatCheckBox.setSupportButtonTintList can only be called from within the same library group prefix (referenced groupId=`androidx.appcompat` with prefix androidx from groupId=`com.goodwy`)"
+        message="AppCompatCheckBox.setSupportButtonTintList can only be called from within the same library group prefix (referenced groupId=`androidx.appcompat` with prefix androidx from groupId=`com.dilib`)"
         errorLine1="        supportButtonTintList = colorStateList"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/MyAppCompatCheckbox.kt"
+            file="src/main/kotlin/com/dilib/commons/views/MyAppCompatCheckbox.kt"
             line="25"
             column="9"/>
     </issue>
 
     <issue
         id="RestrictedApi"
-        message="AppCompatCheckBox.setSupportButtonTintList can only be called from within the same library group prefix (referenced groupId=`androidx.appcompat` with prefix androidx from groupId=`com.goodwy`)"
+        message="AppCompatCheckBox.setSupportButtonTintList can only be called from within the same library group prefix (referenced groupId=`androidx.appcompat` with prefix androidx from groupId=`com.dilib`)"
         errorLine1="        supportButtonTintList = colorStateList"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/MyAppCompatCheckbox.kt"
+            file="src/main/kotlin/com/dilib/commons/views/MyAppCompatCheckbox.kt"
             line="25"
             column="9"/>
     </issue>
 
     <issue
         id="RestrictedApi"
-        message="AppCompatRadioButton.setSupportButtonTintList can only be called from within the same library group prefix (referenced groupId=`androidx.appcompat` with prefix androidx from groupId=`com.goodwy`)"
+        message="AppCompatRadioButton.setSupportButtonTintList can only be called from within the same library group prefix (referenced groupId=`androidx.appcompat` with prefix androidx from groupId=`com.dilib`)"
         errorLine1="        supportButtonTintList = colorStateList"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/MyCompatRadioButton.kt"
+            file="src/main/kotlin/com/dilib/commons/views/MyCompatRadioButton.kt"
             line="25"
             column="9"/>
     </issue>
 
     <issue
         id="RestrictedApi"
-        message="AppCompatRadioButton.setSupportButtonTintList can only be called from within the same library group prefix (referenced groupId=`androidx.appcompat` with prefix androidx from groupId=`com.goodwy`)"
+        message="AppCompatRadioButton.setSupportButtonTintList can only be called from within the same library group prefix (referenced groupId=`androidx.appcompat` with prefix androidx from groupId=`com.dilib`)"
         errorLine1="        supportButtonTintList = colorStateList"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/MyCompatRadioButton.kt"
+            file="src/main/kotlin/com/dilib/commons/views/MyCompatRadioButton.kt"
             line="25"
             column="9"/>
     </issue>
@@ -673,7 +673,7 @@
         errorLine1="        val resourceId = resources.getIdentifier(&quot;navigation_bar_height&quot;, &quot;dimen&quot;, &quot;android&quot;)"
         errorLine2="                                   ~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context.kt"
             line="946"
             column="36"/>
     </issue>
@@ -684,7 +684,7 @@
         errorLine1="        val resourceId = resources.getIdentifier(&quot;status_bar_height&quot;, &quot;dimen&quot;, &quot;android&quot;)"
         errorLine2="                                   ~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context.kt"
             line="956"
             column="36"/>
     </issue>
@@ -695,7 +695,7 @@
         errorLine1="        val resourceId = resources.getIdentifier(&quot;config_navBarInteractionMode&quot;, &quot;integer&quot;, &quot;android&quot;)"
         errorLine2="                                   ~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context.kt"
             line="987"
             column="36"/>
     </issue>
@@ -706,7 +706,7 @@
         errorLine1="    val id = getIdentifier(&quot;config_showNavigationBar&quot;, &quot;bool&quot;, &quot;android&quot;)"
         errorLine2="             ~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Resources.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Resources.kt"
             line="30"
             column="14"/>
     </issue>
@@ -717,7 +717,7 @@
         errorLine1="    val id = getIdentifier(&quot;navigation_bar_height&quot;, &quot;dimen&quot;, &quot;android&quot;)"
         errorLine2="             ~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Resources.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Resources.kt"
             line="35"
             column="14"/>
     </issue>
@@ -739,7 +739,7 @@
         errorLine1="                isBlackAndWhiteTheme() -> resources.getDrawable(R.drawable.black_dialog_background, theme)"
         errorLine2="                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Activity.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Activity.kt"
             line="1490"
             column="43"/>
     </issue>
@@ -750,7 +750,7 @@
         errorLine1="                isDynamicTheme() -> resources.getDrawable(R.drawable.dialog_you_background, theme)"
         errorLine2="                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Activity.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Activity.kt"
             line="1491"
             column="37"/>
     </issue>
@@ -761,7 +761,7 @@
         errorLine1="        getDrawable(R.drawable.ic_camera_vector)"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Activity.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Activity.kt"
             line="1632"
             column="9"/>
     </issue>
@@ -772,7 +772,7 @@
         errorLine1="        fileDrawables[key] = context.resources.getDrawable(value)"
         errorLine2="                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/helpers/Constants.kt"
+            file="src/main/kotlin/com/dilib/commons/helpers/Constants.kt"
             line="580"
             column="30"/>
     </issue>
@@ -783,7 +783,7 @@
         errorLine1="        fileDrawable = resources.getDrawable(R.drawable.ic_file_generic)"
         errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/adapters/FilepickerItemsAdapter.kt"
+            file="src/main/kotlin/com/dilib/commons/adapters/FilepickerItemsAdapter.kt"
             line="146"
             column="24"/>
     </issue>
@@ -794,7 +794,7 @@
         errorLine1="                setDrawable(resources.getDrawable(R.drawable.divider))"
         errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/adapters/MyRecyclerViewAdapter.kt"
+            file="src/main/kotlin/com/dilib/commons/adapters/MyRecyclerViewAdapter.kt"
             line="289"
             column="29"/>
     </issue>
@@ -805,7 +805,7 @@
         errorLine1="                setDrawable(resources.getDrawable(R.drawable.divider))"
         errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/adapters/MyRecyclerViewListAdapter.kt"
+            file="src/main/kotlin/com/dilib/commons/adapters/MyRecyclerViewListAdapter.kt"
             line="306"
             column="29"/>
     </issue>
@@ -816,7 +816,7 @@
         errorLine1="    val drawable = getDrawable(resourceId)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Resources.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Resources.kt"
             line="11"
             column="20"/>
     </issue>
@@ -827,7 +827,7 @@
         errorLine1="    val drawable = getDrawable(drawableId)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Resources.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Resources.kt"
             line="23"
             column="20"/>
     </issue>
@@ -838,7 +838,7 @@
         errorLine1="        val icon = context.resources.getDrawable(R.drawable.ic_group_circle_bg)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/helpers/SimpleContactsHelper.kt"
+            file="src/main/kotlin/com/dilib/commons/helpers/SimpleContactsHelper.kt"
             line="325"
             column="20"/>
     </issue>
@@ -849,7 +849,7 @@
         errorLine1="        resources.getDrawable(R.drawable.selector_clickable_you)"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/View.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/View.kt"
             line="57"
             column="9"/>
     </issue>
@@ -860,7 +860,7 @@
         errorLine1="        resources.getDrawable(R.drawable.selector_clickable_you)"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/View.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/View.kt"
             line="57"
             column="9"/>
     </issue>
@@ -871,7 +871,7 @@
         errorLine1="        resources.getDrawable(R.drawable.selector_clickable)"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/View.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/View.kt"
             line="59"
             column="9"/>
     </issue>
@@ -882,7 +882,7 @@
         errorLine1="        resources.getDrawable(R.drawable.selector_clickable)"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/View.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/View.kt"
             line="59"
             column="9"/>
     </issue>
@@ -959,7 +959,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -975,7 +975,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -991,7 +991,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1007,7 +1007,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1023,7 +1023,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1039,7 +1039,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1055,7 +1055,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1071,7 +1071,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1087,7 +1087,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1103,7 +1103,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1119,7 +1119,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1135,7 +1135,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1151,7 +1151,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1167,7 +1167,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1183,7 +1183,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1199,7 +1199,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1215,7 +1215,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1231,7 +1231,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1247,7 +1247,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1263,7 +1263,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1279,7 +1279,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1295,7 +1295,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1311,7 +1311,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1327,7 +1327,7 @@
         errorLine1="        val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="119"
             column="38"/>
         <location
@@ -1343,7 +1343,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1359,7 +1359,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1375,7 +1375,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1391,7 +1391,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1407,7 +1407,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1423,7 +1423,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1439,7 +1439,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1455,7 +1455,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1471,7 +1471,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1487,7 +1487,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1503,7 +1503,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1519,7 +1519,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1535,7 +1535,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1551,7 +1551,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1567,7 +1567,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1583,7 +1583,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1599,7 +1599,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1615,7 +1615,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1631,7 +1631,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1647,7 +1647,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1663,7 +1663,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1679,7 +1679,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1695,7 +1695,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1711,7 +1711,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1727,7 +1727,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1743,7 +1743,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1759,7 +1759,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1775,7 +1775,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1791,7 +1791,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1807,7 +1807,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1823,7 +1823,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1839,7 +1839,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1855,7 +1855,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1871,7 +1871,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1887,7 +1887,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1903,7 +1903,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1919,7 +1919,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1935,7 +1935,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1951,7 +1951,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1967,7 +1967,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1983,7 +1983,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -1999,7 +1999,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -2015,7 +2015,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -2031,7 +2031,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -2047,7 +2047,7 @@
         errorLine1="        val appVersion = String.format(getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME)))"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/activities/AboutActivity.kt"
+            file="src/main/kotlin/com/dilib/commons/activities/AboutActivity.kt"
             line="193"
             column="26"/>
         <location
@@ -11190,7 +11190,7 @@
     <issue
         id="MissingTranslation"
         message="&quot;donate_new&quot; is not translated in &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;eo&quot; (Esperanto), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;iw&quot; (Hebrew), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
-        errorLine1="    &lt;string name=&quot;donate_new&quot;>Hello,&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;hope you are enjoying the app. It contains no ads and we aren\&apos;t collecting your data either, please support its development by purchasing &amp;lt;a href=https://play.google.com/store/apps/details?id=com.goodwy.thankyou&amp;gt;Fossify Thank You&amp;lt;/a&amp;gt;. You will also have all app features including color customization unlocked.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Thank you!&lt;/string>"
+        errorLine1="    &lt;string name=&quot;donate_new&quot;>Hello,&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;hope you are enjoying the app. It contains no ads and we aren\&apos;t collecting your data either, please support its development by purchasing &amp;lt;a href=https://play.google.com/store/apps/details?id=com.dilib.thankyou&amp;gt;Fossify Thank You&amp;lt;/a&amp;gt;. You will also have all app features including color customization unlocked.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Thank you!&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/values/strings.xml"
@@ -11201,7 +11201,7 @@
     <issue
         id="MissingTranslation"
         message="&quot;donate_short&quot; is not translated in &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;eo&quot; (Esperanto), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;iw&quot; (Hebrew), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
-        errorLine1="    &lt;string name=&quot;donate_short&quot;>Support us by purchasing &amp;lt;a href=https://play.google.com/store/apps/details?id=com.goodwy.thankyou&amp;gt;Fossify Thank You&amp;lt;/a&amp;gt; please, it will also unlock all app features including color customization.&lt;/string>"
+        errorLine1="    &lt;string name=&quot;donate_short&quot;>Support us by purchasing &amp;lt;a href=https://play.google.com/store/apps/details?id=com.dilib.thankyou&amp;gt;Fossify Thank You&amp;lt;/a&amp;gt; please, it will also unlock all app features including color customization.&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/values/strings.xml"
@@ -11344,7 +11344,7 @@
     <issue
         id="MissingTranslation"
         message="&quot;features_locked&quot; is not translated in &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;eo&quot; (Esperanto), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;iw&quot; (Hebrew), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
-        errorLine1="    &lt;string name=&quot;features_locked&quot;>This feature is locked, please purchase &amp;lt;a href=https://play.google.com/store/apps/details?id=com.goodwy.thankyou&amp;gt;Fossify Thank You&amp;lt;/a&amp;gt; for unlocking the full app.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;It is a one time payment only and if you won\&apos;t be satisfied, we can refund you.&lt;/string>"
+        errorLine1="    &lt;string name=&quot;features_locked&quot;>This feature is locked, please purchase &amp;lt;a href=https://play.google.com/store/apps/details?id=com.dilib.thankyou&amp;gt;Fossify Thank You&amp;lt;/a&amp;gt; for unlocking the full app.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;It is a one time payment only and if you won\&apos;t be satisfied, we can refund you.&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/values/strings.xml"
@@ -13346,7 +13346,7 @@
     <issue
         id="MissingTranslation"
         message="&quot;deprecated_app&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;eo&quot; (Esperanto), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;iw&quot; (Hebrew), &quot;eu&quot; (Basque), &quot;nb&quot; (Norwegian Bokmål), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;nn&quot; (Norwegian Nynorsk), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;si&quot; (Sinhala), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;"
-        errorLine1="    &lt;string name=&quot;deprecated_app&quot;>DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.goodwy..xxx.pro&lt;/string>"
+        errorLine1="    &lt;string name=&quot;deprecated_app&quot;>DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.dilib..xxx.pro&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/values/strings.xml"
@@ -16027,7 +16027,7 @@
         errorLine1="        notifyDataSetChanged()"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/adapters/MyRecyclerViewAdapter.kt"
+            file="src/main/kotlin/com/dilib/commons/adapters/MyRecyclerViewAdapter.kt"
             line="301"
             column="9"/>
     </issue>
@@ -16038,7 +16038,7 @@
         errorLine1="            val parcelFileDescriptor = contentResolver.openFileDescriptor(documentFile.uri, &quot;rw&quot;)"
         errorLine2="                                                       ~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context.kt"
             line="689"
             column="56"/>
     </issue>
@@ -16049,7 +16049,7 @@
         errorLine1="            val fd = contentResolver.openFileDescriptor(Uri.parse(path), &quot;r&quot;)?.fileDescriptor"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/extensions/Context.kt"
+            file="src/main/kotlin/com/dilib/commons/extensions/Context.kt"
             line="761"
             column="38"/>
     </issue>
@@ -16060,7 +16060,7 @@
         errorLine1="                    context.contentResolver.openInputStream(Uri.parse(path))?.available()?.toLong() ?: 0L"
         errorLine2="                                            ~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/models/FileDirItem.kt"
+            file="src/main/kotlin/com/dilib/commons/models/FileDirItem.kt"
             line="86"
             column="45"/>
     </issue>
@@ -16071,7 +16071,7 @@
         errorLine1="    val activity: BaseSimpleActivity, val copyOnly: Boolean, val copyMediaOnly: Boolean, val conflictResolutions: LinkedHashMap&lt;String, Int>,"
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/asynctasks/CopyMoveTask.kt"
+            file="src/main/kotlin/com/dilib/commons/asynctasks/CopyMoveTask.kt"
             line="27"
             column="5"/>
     </issue>
@@ -16599,7 +16599,7 @@
         errorLine1="    var previousIndex by remember(this) { mutableStateOf(firstVisibleItemIndex) }"
         errorLine2="                                          ~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/compose/extensions/DragHandler.kt"
+            file="src/main/kotlin/com/dilib/commons/compose/extensions/DragHandler.kt"
             line="78"
             column="43"/>
     </issue>
@@ -16610,7 +16610,7 @@
         errorLine1="    var previousScrollOffset by remember(this) { mutableStateOf(firstVisibleItemScrollOffset) }"
         errorLine2="                                                 ~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/compose/extensions/DragHandler.kt"
+            file="src/main/kotlin/com/dilib/commons/compose/extensions/DragHandler.kt"
             line="79"
             column="50"/>
     </issue>
@@ -17048,7 +17048,7 @@
         errorLine1="        setOnTouchListener { view, motionEvent ->"
         errorLine2="                           ^">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/LineColorPicker.kt"
+            file="src/main/kotlin/com/dilib/commons/views/LineColorPicker.kt"
             line="46"
             column="28"/>
     </issue>
@@ -17059,7 +17059,7 @@
         errorLine1="        setOnTouchListener { view, motionEvent ->"
         errorLine2="                           ^">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/LineColorPicker.kt"
+            file="src/main/kotlin/com/dilib/commons/views/LineColorPicker.kt"
             line="46"
             column="28"/>
     </issue>
@@ -17070,7 +17070,7 @@
         errorLine1="        setOnTouchListener { view, motionEvent ->"
         errorLine2="                           ^">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/LineColorPicker.kt"
+            file="src/main/kotlin/com/dilib/commons/views/LineColorPicker.kt"
             line="46"
             column="28"/>
     </issue>
@@ -17081,7 +17081,7 @@
         errorLine1="    override fun onTouchEvent(ev: MotionEvent): Boolean {"
         errorLine2="                 ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/MyDialogViewPager.kt"
+            file="src/main/kotlin/com/dilib/commons/views/MyDialogViewPager.kt"
             line="19"
             column="18"/>
     </issue>
@@ -17092,7 +17092,7 @@
         errorLine1="    override fun onTouchEvent(ev: MotionEvent): Boolean {"
         errorLine2="                 ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/MyScrollView.kt"
+            file="src/main/kotlin/com/dilib/commons/views/MyScrollView.kt"
             line="17"
             column="18"/>
     </issue>
@@ -17103,7 +17103,7 @@
         errorLine1="    override fun onTouchEvent(ev: MotionEvent): Boolean {"
         errorLine2="                 ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/MyViewPager.kt"
+            file="src/main/kotlin/com/dilib/commons/views/MyViewPager.kt"
             line="22"
             column="18"/>
     </issue>
@@ -17114,7 +17114,7 @@
         errorLine1="        bottomActionMenuView.sendAccessibilityEvent(AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED)"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/views/bottomactionmenu/BottomActionMenuPopup.kt"
+            file="src/main/kotlin/com/dilib/commons/views/bottomactionmenu/BottomActionMenuPopup.kt"
             line="46"
             column="9"/>
     </issue>
@@ -17510,7 +17510,7 @@
         errorLine1="    colorPickerOldHex.text = &quot;#$hexCode&quot;"
         errorLine2="                             ~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/dialogs/ColorPickerDialog.kt"
+            file="src/main/kotlin/com/dilib/commons/dialogs/ColorPickerDialog.kt"
             line="270"
             column="30"/>
     </issue>
@@ -17521,7 +17521,7 @@
         errorLine1="        view.folderPath.setText(&quot;${activity.humanizePath(path).trimEnd(&apos;/&apos;)}/&quot;)"
         errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/dialogs/CreateNewFolderDialog.kt"
+            file="src/main/kotlin/com/dilib/commons/dialogs/CreateNewFolderDialog.kt"
             line="33"
             column="33"/>
     </issue>
@@ -17532,7 +17532,7 @@
         errorLine1="                    dialogCustomIntervalValue.setText((selectedSeconds / DAY_SECONDS).toString())"
         errorLine2="                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/dialogs/CustomIntervalPickerDialog.kt"
+            file="src/main/kotlin/com/dilib/commons/dialogs/CustomIntervalPickerDialog.kt"
             line="66"
             column="55"/>
     </issue>
@@ -17543,7 +17543,7 @@
         errorLine1="                    dialogCustomIntervalValue.setText((selectedSeconds / HOUR_SECONDS).toString())"
         errorLine2="                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/dialogs/CustomIntervalPickerDialog.kt"
+            file="src/main/kotlin/com/dilib/commons/dialogs/CustomIntervalPickerDialog.kt"
             line="71"
             column="55"/>
     </issue>
@@ -17554,7 +17554,7 @@
         errorLine1="                    dialogCustomIntervalValue.setText((selectedSeconds / MINUTE_SECONDS).toString())"
         errorLine2="                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/dialogs/CustomIntervalPickerDialog.kt"
+            file="src/main/kotlin/com/dilib/commons/dialogs/CustomIntervalPickerDialog.kt"
             line="76"
             column="55"/>
     </issue>
@@ -17565,7 +17565,7 @@
         errorLine1="                    dialogCustomIntervalValue.setText(selectedSeconds.toString())"
         errorLine2="                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/dialogs/CustomIntervalPickerDialog.kt"
+            file="src/main/kotlin/com/dilib/commons/dialogs/CustomIntervalPickerDialog.kt"
             line="81"
             column="55"/>
     </issue>
@@ -17576,7 +17576,7 @@
         errorLine1="            exportBlockedNumbersFilename.setText(&quot;${activity.getString(R.string.blocked_numbers)}_${activity.getCurrentFormattedDateTime()}&quot;)"
         errorLine2="                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/dialogs/ExportBlockedNumbersDialog.kt"
+            file="src/main/kotlin/com/dilib/commons/dialogs/ExportBlockedNumbersDialog.kt"
             line="24"
             column="50"/>
     </issue>
@@ -17587,7 +17587,7 @@
         errorLine1="        mDialogView.filepickerFavoritesLabel.text = &quot;${activity.getString(R.string.favorites)}:&quot;"
         errorLine2="                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/dialogs/FilePickerDialog.kt"
+            file="src/main/kotlin/com/dilib/commons/dialogs/FilePickerDialog.kt"
             line="120"
             column="53"/>
     </issue>
@@ -17598,7 +17598,7 @@
         errorLine1="                        fileCount.toString()"
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/dialogs/PropertiesDialog.kt"
+            file="src/main/kotlin/com/dilib/commons/dialogs/PropertiesDialog.kt"
             line="78"
             column="25"/>
     </issue>
@@ -17609,7 +17609,7 @@
         errorLine1="                    fileCount.toString()"
         errorLine2="                    ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/com/goodwy/commons/dialogs/PropertiesDialog.kt"
+            file="src/main/kotlin/com/dilib/commons/dialogs/PropertiesDialog.kt"
             line="234"
             column="21"/>
     </issue>
@@ -17628,7 +17628,7 @@
     <issue
         id="RelativeOverlap"
         message="`@id/customization_text_color_label` can overlap `@id/customization_text_color` if @string/text_color grows due to localized text expansion"
-        errorLine1="                &lt;com.goodwy.commons.views.MyTextView"
+        errorLine1="                &lt;com.dilib.commons.views.MyTextView"
         errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/activity_customization.xml"
@@ -17639,7 +17639,7 @@
     <issue
         id="RelativeOverlap"
         message="`@id/customization_background_color_label` can overlap `@id/customization_background_color` if @string/background_color grows due to localized text expansion"
-        errorLine1="                &lt;com.goodwy.commons.views.MyTextView"
+        errorLine1="                &lt;com.dilib.commons.views.MyTextView"
         errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/activity_customization.xml"
@@ -17650,7 +17650,7 @@
     <issue
         id="RelativeOverlap"
         message="`@id/customization_primary_color_label` can overlap `@id/customization_primary_color` if @string/primary_color grows due to localized text expansion"
-        errorLine1="                &lt;com.goodwy.commons.views.MyTextView"
+        errorLine1="                &lt;com.dilib.commons.views.MyTextView"
         errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/activity_customization.xml"
@@ -17661,7 +17661,7 @@
     <issue
         id="RelativeOverlap"
         message="`@id/customization_accent_color_label` can overlap `@id/customization_accent_color` if @string/accent_color_white grows due to localized text expansion"
-        errorLine1="                &lt;com.goodwy.commons.views.MyTextView"
+        errorLine1="                &lt;com.dilib.commons.views.MyTextView"
         errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/activity_customization.xml"
@@ -17672,7 +17672,7 @@
     <issue
         id="RelativeOverlap"
         message="`@id/customization_app_icon_color_label` can overlap `@id/customization_app_icon_color` if @string/app_icon_color grows due to localized text expansion"
-        errorLine1="                &lt;com.goodwy.commons.views.MyTextView"
+        errorLine1="                &lt;com.dilib.commons.views.MyTextView"
         errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/activity_customization.xml"
@@ -17683,7 +17683,7 @@
     <issue
         id="RelativeOverlap"
         message="`@id/color_picker_new_hex` can overlap `@id/color_picker_old_hex` if @id/color_picker_new_hex grows due to localized text expansion"
-        errorLine1="            &lt;com.goodwy.commons.views.MyEditText"
+        errorLine1="            &lt;com.dilib.commons.views.MyEditText"
         errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/dialog_color_picker.xml"

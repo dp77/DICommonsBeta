@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.goodwy.strings"
+    namespace = "com.dilib.strings"
     compileSdk = libs.versions.app.build.compileSDKVersion.get().toInt()
 }
 

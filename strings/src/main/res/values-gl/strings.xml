@@ -159,7 +159,7 @@
     <string name="faq_2_text_commons_g">
         <![CDATA[
         Si, por suposto. Pode correr a voz sobre os aplicativos ou dar bos comentarios e valoracións. Tamén pode axudar traducindo os aplicativos nun novo idioma ou simplemente actualizar algunhas traducións existentes.
-        Puede encontrar la guía en https://github.com/Goodwy/Discussion, ou simplemente envíame unha mensaxe a goodwy.dev@gmail.com se necesitas axuda.
+        Puede encontrar la guía en https://github.com/dilib/Discussion, ou simplemente envíame unha mensaxe a goodwy.dev@gmail.com se necesitas axuda.
         ]]>
     </string>
     <string name="faq_6_text_commons_g">Este problema xorde cando o teu iniciador non admite totalmente a personalización de iconas. Tenta lanzar a aplicación a través de Google Play ou un widget, se é accesible.</string>
@@ -173,11 +173,11 @@
     <string name="contributors_label_g">
         <![CDATA[
             This list contains everyone that noticeably helped any app within the Goodwy suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Goodwy/Discussion">this website</a>, or just contact us at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you have any questions.
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/dilib/Discussion">this website</a>, or just contact us at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
-    <string name="deprecated_app_g">OBSOLETA: Esta versión do app xa non se está mantendo, obtén a versión Pro en https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
+    <string name="deprecated_app_g">OBSOLETA: Esta versión do app xa non se está mantendo, obtén a versión Pro en https://play.google.com/store/apps/details?id=com.dilib.xxx.pro</string>
     <string name="pro_app_refund_g">Non esquezas que se desinstalas calquera app de pago antes de 2 horas, devolveránseche os cartos automáticamente. Se queres unha devolución máis tarde, contáctanos en goodwy.dev@gmail.com e terala. Isto fai que sexa fácil probala :)</string>
 
     <!-- Contacts -->
