@@ -49,7 +49,6 @@ import com.goodwy.commons.dialogs.WritePermissionDialog.WritePermissionDialogMod
 import com.goodwy.commons.extensions.*
 import com.goodwy.commons.helpers.*
 import com.goodwy.commons.interfaces.CopyMoveListener
-import com.goodwy.commons.models.FAQItem
 import com.goodwy.commons.models.FileDirItem
 import com.goodwy.commons.views.MySearchMenu
 import com.google.android.material.appbar.AppBarLayout

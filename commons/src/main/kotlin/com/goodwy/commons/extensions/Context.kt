@@ -967,11 +967,10 @@ fun Context.isUsingGestureNavigation(): Boolean {
 fun Context.getCornerRadius() = resources.getDimension(R.dimen.bottom_sheet_corner_radius) //R.dimen.rounded_corner_radius_small
 fun Context.getCornerRadiusBig() = resources.getDimension(R.dimen.rounded_corner_radius_big)
 
-// we need the Default Dialer functionality only in Simple Dialer and in Simple Contacts for now
 fun Context.isDefaultDialer(): Boolean {
-    return if (!packageName.startsWith("com.di.dialer") || !packageName.startsWith("com.di.contacts")) {
+    return if (!packageName.startsWith("com.di.dialer")) {
         true
-    } else if ((packageName.startsWith("com.di.dialer") || !packageName.startsWith("com.di.contacts")) && isQPlus()) {
+    } else if ((packageName.startsWith("com.di.dialer")) && isQPlus()) {
         val roleManager = getSystemService(RoleManager::class.java)
         roleManager!!.isRoleAvailable(RoleManager.ROLE_DIALER) && roleManager.isRoleHeld(RoleManager.ROLE_DIALER)
     } else {
