@@ -39,6 +39,8 @@ class CustomizationActivity : BaseSimpleActivity() {
         private val THEME_SYSTEM = 5    // Material You
     }
 
+
+
     private var curTextColor = 0
     private var curBackgroundColor = 0
     private var curPrimaryColor = 0
@@ -58,17 +60,7 @@ class CustomizationActivity : BaseSimpleActivity() {
 
     private fun getShowAccentColor() = intent.getBooleanExtra(SHOW_ACCENT_COLOR, false)
     private fun getShowAppIconColor() = intent.getBooleanExtra(SHOW_APP_ICON_COLOR, false)
-
     private fun isProVersion() = intent.getBooleanExtra(IS_COLLECTION, true) || isPro()
-    private fun getProductIdList() = intent.getStringArrayListExtra(PRODUCT_ID_LIST) ?: arrayListOf("", "", "")
-    private fun getProductIdListRu() = intent.getStringArrayListExtra(PRODUCT_ID_LIST_RU) ?: arrayListOf("", "", "")
-    private fun getSubscriptionIdList() = intent.getStringArrayListExtra(SUBSCRIPTION_ID_LIST) ?: arrayListOf("", "", "")
-    private fun getSubscriptionIdListRu() = intent.getStringArrayListExtra(SUBSCRIPTION_ID_LIST_RU) ?: arrayListOf("", "", "")
-    private fun getSubscriptionYearIdList() = intent.getStringArrayListExtra(SUBSCRIPTION_YEAR_ID_LIST) ?: arrayListOf("", "", "")
-    private fun getSubscriptionYearIdListRu() = intent.getStringArrayListExtra(SUBSCRIPTION_YEAR_ID_LIST_RU) ?: arrayListOf("", "", "")
-
-    private fun playStoreInstalled() = intent.getBooleanExtra(PLAY_STORE_INSTALLED, true)
-    private fun ruStoreInstalled() = intent.getBooleanExtra(RU_STORE, false)
 
     override fun getAppIconIDs() = intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList()
 

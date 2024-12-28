@@ -33,6 +33,7 @@ import com.dilib.commons.compose.extensions.MyDevices
 import com.dilib.commons.compose.theme.AppThemeSurface
 import com.dilib.commons.databinding.DialogCallConfirmationBinding
 import com.dilib.commons.extensions.*
+import com.dilib.commons.R
 
 class CallConfirmationDialog(val activity: BaseSimpleActivity, private val callee: String, private val callback: () -> Unit) {
     private var view = DialogCallConfirmationBinding.inflate(activity.layoutInflater, null, false)

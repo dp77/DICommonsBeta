@@ -47,6 +47,7 @@ import com.dilib.commons.extensions.fromHtml
 import com.dilib.commons.extensions.getAlertDialogBuilder
 import com.dilib.commons.extensions.humanizePath
 import com.dilib.commons.extensions.setupDialogStuff
+import com.dilib.commons.R
 
 class WritePermissionDialog(activity: Activity, val writePermissionDialogMode: WritePermissionDialogMode, val callback: () -> Unit) {
 

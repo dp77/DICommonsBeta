@@ -19,6 +19,7 @@ import com.dilib.commons.compose.alert_dialog.*
 import com.dilib.commons.compose.extensions.MyDevices
 import com.dilib.commons.compose.theme.AppThemeSurface
 import com.dilib.commons.models.BlockedNumber
+import com.dilib.commons.R
 
 @Composable
 fun AddOrEditBlockedNumberAlertDialog(

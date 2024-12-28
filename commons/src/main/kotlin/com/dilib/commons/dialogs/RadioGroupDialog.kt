@@ -38,6 +38,7 @@ import com.dilib.commons.extensions.getAlertDialogBuilder
 import com.dilib.commons.extensions.onGlobalLayout
 import com.dilib.commons.extensions.setupDialogStuff
 import com.dilib.commons.models.RadioItem
+import com.dilib.commons.R
 
 class RadioGroupDialog(
     val activity: Activity, val items: ArrayList<RadioItem>, val checkedItemId: Int = -1, val titleId: Int = 0,

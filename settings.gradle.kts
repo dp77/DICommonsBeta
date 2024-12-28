@@ -16,4 +16,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "DICommonsBeta"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
-include(":commons", ":samples", ":strings")
+include(":commons", ":strings")
